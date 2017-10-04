@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.activitytest.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hello World!"/>
+
+    <Button
+        android:id="@+id/dialog_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示一个 Fragment 弹出框"
+        android:background="@drawable/mbtn_gb"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/mbt_no_fragment"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mbtn_gb"
+        android:text="显示一个非 Fragment 弹出框"/>
+
+    <Button
+        android:id="@+id/mbt_activity"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="显示一个 Activity 弹出框"
+        android:background="@drawable/mbtn_gb"/>
+
+</LinearLayout>
