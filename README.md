@@ -9,6 +9,6 @@
 > 一个的小星星, 是对笔者创作的最大鼓励 
 #### Android四大组件
 
-- [深入学习Activity的生命周期](https://github.com/haimaBai/MyBlogPro/blob/master/ActivityTest/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0Activity%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
+- [深入学习Activity的生命周期](https://haimabai.github.io/2017/10/04/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0Activity%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/)
 
 
