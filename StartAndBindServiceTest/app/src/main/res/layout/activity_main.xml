@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.startandbindservicetest.MainActivity">
+
+    <Button
+        android:id="@+id/btn_startService"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_bg"
+        android:text="startService方式开启服务"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_stopService"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_bg"
+        android:text="stopService方式关闭服务"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_startService"/>
+
+    <Button
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/btn_bg"
+        android:text="bindService方式开启服务"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btn_stopService"
+        android:id="@+id/btn_bind_service"/>
+
+    <Button
+        android:id="@+id/btn_unbind_service"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="5dp"
+        android:text="unBindService方式关闭服务"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bind_service"
+        android:background="@drawable/btn_bg"/>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+@startuml
+
+class Activity extends ContextThemeWrapper
+class ContextThemeWrapper extends ContextWrapper
+class Service extends ContextWrapper
+class ContextWrapper extends Context
+abstract class Context
+
+@enduml
