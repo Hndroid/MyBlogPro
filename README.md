@@ -6,7 +6,7 @@
 - 方法二：通过 git 命令 ```git clone https://github.com/haimaBai/MyBlogPro.git``` 把工程文件 clone 工程文件到本地，解压后利用 Android Studio 打开对应 Blog 提及的工程文件即可;
 
 * * * 
-> 一个的小星星, 是对笔者创作的最大鼓励 
+
 #### Android四大组件
 
 - [深入学习Activity的生命周期](https://haimabai.github.io/2017/10/04/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0Activity%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/)
@@ -17,4 +17,7 @@
 - [Volley的原理解析](https://haimabai.github.io/2017/10/22/Volley%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/)
 
 
+#### View相关源码解析
+
+- [LayoutInflate部分源码解析](https://hndroid.github.io/2018/04/03/LayoutInflate%E9%83%A8%E5%88%86%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/)
 
